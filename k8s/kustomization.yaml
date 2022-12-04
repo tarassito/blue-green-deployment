@@ -4,8 +4,8 @@ resources:
 - deployment.yaml
 - service.yaml
 - ingress.yaml
-namespace: blue-green
+namespace: python-app-green
 images:
 - name: blue-green
   newName: tarasssito/blue-green
-  newTag: latest
+  newTag: 40105956fc71d9b34f2827bfc9119a76bcb806e0
