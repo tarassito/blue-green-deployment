@@ -9,7 +9,8 @@ app = Flask(__name__)
 if config.getboolean("features", "feature_1") == True:
 	message = "Hello, Taras!"
 else:
-	message = "Hello, World!"
+	message = "Hello, World!!!"
+
 
 @app.route("/")
 def hello():
@@ -17,4 +18,4 @@ def hello():
 
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=8050)
+	app.run(host='0.0.0.0', port=8050)
